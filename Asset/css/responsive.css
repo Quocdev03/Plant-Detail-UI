@@ -1,0 +1,56 @@
+@media screen and (max-width: 768.98px) {
+
+    .plant-details-content-info,
+    .plant-details__header {
+        border: none;
+    }
+
+    .plant-details__container {
+        max-width: 50rem;
+        min-height: 60rem;
+    }
+
+    .plant-details-content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .plant-details-content-image {
+        display: block;
+        margin: 12rem auto;
+        position: absolute;
+    }
+
+
+    .plant-details-content-desc {
+        margin-top: 15rem;
+        font-size: 1.3rem;
+    }
+
+    .plant-details-content-price {
+        margin-bottom: 10rem;
+    }
+
+    .plant-details-content-price,
+    .plant-details-content-title {
+        font-size: 1.5rem;
+    }
+
+    .plant-details__header {
+        padding: 2rem;
+    }
+
+    .plant-details__content-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .plant-content-button {
+        padding: .3rem .8rem;
+        font-size: .7rem;
+    }
+}

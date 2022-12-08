@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(146, 200, 135);
+    font-family: 'Poppins', sans-serif;
+}
+
+.plant-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 160px;
+}
+
+.plant-details__container {
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.plant-details__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.plant-header-back {
+    color: #999;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.plant-header-back a {
+    margin-left: .6rem;
+    text-decoration: none;
+    color: #999;
+    transition: .3s all linear;
+}
+
+.plant-header-back:hover>a {
+    color: rgb(95, 95, 95);
+    overflow: hidden;
+}
+
+.plant-header-like {
+    color: #999;
+    font-size: 2rem;
+    transition: .3s all linear;
+    background: transparent;
+}
+
+.plant-header-like:hover {
+    color: rgb(240, 7, 57);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.plant-details__content {
+    position: relative;
+    display: flex;
+}
+
+.plant-details__content>div {
+    padding: 4rem;
+}
+
+.plant-details-content-image {
+    width: 48%;
+    object-fit: cover;
+    transition: .2s all linear;
+}
+
+.plant-details-content-image:hover {
+    transform: scale(1.1);
+}
+
+.plant-details-content-info {
+    width: 68%;
+    border-left: 1px solid #ccc;
+}
+
+.plant-details-content-title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+
+.plant-details-content-category {
+    text-transform: uppercase;
+    color: #999;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.plant-details-content-price {
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.plant-details-content-desc {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.plant-details-content-button {
+    display: flex;
+    justify-content: center;
+    gap: 0 4rem;
+}
+
+.plant-content-button {
+    outline: none;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    color: #999;
+    text-transform: uppercase;
+    flex: 1;
+    border: 1px solid #ccc;
+    transition: .3s all linear;
+    border-radius: 16px;
+}
+
+.plant-content-button:hover {
+    box-shadow: rgb(146, 200, 135) 0px 8px 24px;
+    color: rgb(95, 95, 95);
+}
